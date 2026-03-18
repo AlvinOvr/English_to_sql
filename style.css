@@ -1,6 +1,7 @@
 body {
     display: flex;
     color: #333;
+    justify-content: center;
     font-family: Arial, Helvetica, sans-serif;
 }
 

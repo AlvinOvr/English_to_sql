@@ -1,0 +1,41 @@
+<!Doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Englsih to SQL</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <h1>English to SQL</h1>
+        </header>
+
+        <section class="input-section">
+            <h2>Ask Your Database</h2>
+            <p class="instruction">Type your question in English, and Let us generate SQL query for you.</p>
+            <textarea id="english-input" rows="5" placeholder="What would you like to know?..."></textarea>
+            <div class="button-group">
+                <button class="btn-clear">Clear</button>
+                <button class="btn-generate">Generate SQL</button>
+            </div>
+        </section>
+
+        <hr><section class="sql-section">
+            <h2>Run SQL Query</h2>
+            <p class="instruction">Run generated SQL and get results. If this code isn't what ypu're looking for, please modify the script and regenate SQL. Also, you can edit SQL here.</p>
+            <textarea id="sql-output" rows="5" placeholder="Generated SQL will appear here..."></textarea>
+            <div class="button-group">
+                <button class="btn-run">Run query</button>
+            </div>
+        </section>
+
+        <hr><section calss="results-section">
+            <h2>Query results</h3>
+            <div class="table-container"></div>
+        </section>
+    </div>
+</body>
+
+</html>

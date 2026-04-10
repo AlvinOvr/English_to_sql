@@ -7,7 +7,7 @@ const DatabaseConfig = {
 };
 
 const GeminiConfig = {
-    API_KEY: process.env.GEMINI_API_KEY,
+    API_KEY: "AIzaSyDBUJUrZcfjDj86kHSMPo00UniDBH4IGA4",
     MODEL: process.env.GEMINI_MODEL || "gemini-2.5-flash"
 };
 
